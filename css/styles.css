@@ -1,0 +1,25 @@
+.heading{
+  background-image: url(pingpong1.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 250px;
+  text-align: center;
+}
+h1{
+  padding-top: 70px;
+  font-style: italic;
+  font-family: cursive;
+  font-size: 60px
+}
+.info{
+  margin-top: 15px;
+  background-color: rgb(3, 132, 183) ;
+  height: 900px;
+  color: white;
+  font-style: italic;
+  font-family: fantasy;
+  text-align: center;
+}
+h2{
+}
