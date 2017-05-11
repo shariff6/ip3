@@ -4,9 +4,9 @@ var ping = function(user) {
     if (i % 5 === 0 & i % 3 === 0) {
       $("ul#output").append("<li class='remove'>pingpong</li>")
     } else if (i % 3 === 0) {
-      $("ul#output").append("<li  class='remove'>pong</li>")
-    } else if (i % 5 === 0) {
       $("ul#output").append("<li  class='remove'>ping</li>")
+    } else if (i % 5 === 0) {
+      $("ul#output").append("<li  class='remove'>pong</li>")
     } else {
       $("ul#output").append("<li class= 'remove'>" + String(i) + "</li>")
     }
